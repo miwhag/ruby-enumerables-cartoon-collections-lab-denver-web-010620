@@ -34,7 +34,7 @@ end
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
   array.map do |cheese|
-    if cheese == cheese_types[0]
+    if cheese == cheese_types[0] || 
       return cheese.to_s
     end
   end 
